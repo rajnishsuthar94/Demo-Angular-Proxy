@@ -1,0 +1,6 @@
+{
+    "/authorize": {
+        "target": "https://auth.api.free-heads.com/",
+        "secure": false
+    }
+}

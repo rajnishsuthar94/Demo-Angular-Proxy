@@ -1,0 +1,9 @@
+<div *ngIf="authCode">
+  <h1>Authentication Code</h1>
+  {{authCode | json}}
+</div>
+
+<div *ngIf="error?.message">
+  <h1>Error Code</h1>
+  {{error?.message | json}}
+</div>
